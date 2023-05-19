@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlixGo.Domain", "src\FlixGo.Domain\FlixGo.Domain.csproj", "{33EA39B1-3B28-4CF5-BFE2-C67B453FD06E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlixGo.Application", "src\FlixGo.Application\FlixGo.Application.csproj", "{B4BAB44A-2114-4C8E-BCA5-E08BF72FE687}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlixGo.Infrastructure", "src\FlixGo.Infrastructure\FlixGo.Infrastructure.csproj", "{4BDA6F07-4EEB-4789-9F7D-771CAC7C7CC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlixGo.Api", "src\FlixGo.Api\FlixGo.Api.csproj", "{6188ED30-6E24-4CF2-B021-E1D15B66A887}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{780EA2F3-CE50-4DC5-AC9A-6683E26E01D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{780EA2F3-CE50-4DC5-AC9A-6683E26E01D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{780EA2F3-CE50-4DC5-AC9A-6683E26E01D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{780EA2F3-CE50-4DC5-AC9A-6683E26E01D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33EA39B1-3B28-4CF5-BFE2-C67B453FD06E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33EA39B1-3B28-4CF5-BFE2-C67B453FD06E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33EA39B1-3B28-4CF5-BFE2-C67B453FD06E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33EA39B1-3B28-4CF5-BFE2-C67B453FD06E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4BAB44A-2114-4C8E-BCA5-E08BF72FE687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4BAB44A-2114-4C8E-BCA5-E08BF72FE687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4BAB44A-2114-4C8E-BCA5-E08BF72FE687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4BAB44A-2114-4C8E-BCA5-E08BF72FE687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BDA6F07-4EEB-4789-9F7D-771CAC7C7CC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BDA6F07-4EEB-4789-9F7D-771CAC7C7CC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BDA6F07-4EEB-4789-9F7D-771CAC7C7CC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BDA6F07-4EEB-4789-9F7D-771CAC7C7CC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6188ED30-6E24-4CF2-B021-E1D15B66A887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6188ED30-6E24-4CF2-B021-E1D15B66A887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6188ED30-6E24-4CF2-B021-E1D15B66A887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6188ED30-6E24-4CF2-B021-E1D15B66A887}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
