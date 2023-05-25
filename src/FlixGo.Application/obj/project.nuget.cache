@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ln37lRzpiXEfGo4oUk+uXKx0oQaFR4veywveLjQpv3YE79XmeSDzRYvqOUjiE/0+urh19Ph8Qw+RyVSGAktllQ==",
+  "dgSpecHash": "CdSnfH93dpe980OFR59XJif1owipVLq2ay1xQOZZ6Cp3I5tpUI/LjXiRbXmzs/qZFoXkqLaeGRpBBZmcaa24wg==",
   "success": true,
-  "projectFilePath": "D:\\projects\\FlixGo\\src\\FlixGo.Application\\FlixGo.Application.csproj",
+  "projectFilePath": "D:\\RiderProjects\\FlixGo\\src\\FlixGo.Application\\FlixGo.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

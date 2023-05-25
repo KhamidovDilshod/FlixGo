@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FlixGo.Domain
-build_property.ProjectDir = D:\projects\FlixGo\src\FlixGo.Domain\
+build_property.ProjectDir = D:\RiderProjects\FlixGo\src\FlixGo.Domain\

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projects\\FlixGo\\src\\FlixGo.Application\\FlixGo.Application.csproj": {}
+    "D:\\RiderProjects\\FlixGo\\src\\FlixGo.Application\\FlixGo.Application.csproj": {}
   },
   "projects": {
-    "D:\\projects\\FlixGo\\src\\FlixGo.Application\\FlixGo.Application.csproj": {
+    "D:\\RiderProjects\\FlixGo\\src\\FlixGo.Application\\FlixGo.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\FlixGo\\src\\FlixGo.Application\\FlixGo.Application.csproj",
+        "projectUniqueName": "D:\\RiderProjects\\FlixGo\\src\\FlixGo.Application\\FlixGo.Application.csproj",
         "projectName": "FlixGo.Application",
-        "projectPath": "D:\\projects\\FlixGo\\src\\FlixGo.Application\\FlixGo.Application.csproj",
-        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\FlixGo\\src\\FlixGo.Application\\obj\\",
+        "projectPath": "D:\\RiderProjects\\FlixGo\\src\\FlixGo.Application\\FlixGo.Application.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\RiderProjects\\FlixGo\\src\\FlixGo.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
