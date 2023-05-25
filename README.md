@@ -4,7 +4,8 @@
 | UserId    | Primary Key  |
 | Username  | VARCHAR(50)  |
 | Email     | VARCHAR(100) |
-| ...       | ...          |
+| Password  | VARCHAR(100) |
+| Role      | VARCHAR(10)  |
 
 ### Profile Table
 | Column      | Type         |
@@ -12,7 +13,7 @@
 | ProfileId   | Primary Key  |
 | UserId      | Foreign Key  |
 | ProfileName | VARCHAR(50)  |
-| ...         | ...          |
+| ThemeId     | UUI          |
 
 ### Genre Table
 | Column   | Type         |
