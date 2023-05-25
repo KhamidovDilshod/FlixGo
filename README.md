@@ -1,2 +1,54 @@
-# FlixGo
-# Server side of flixgo.com
+### User Table
+| Column    | Type         |
+|-----------|--------------|
+| UserId    | Primary Key  |
+| Username  | VARCHAR(50)  |
+| Email     | VARCHAR(100) |
+| ...       | ...          |
+
+### Profile Table
+| Column      | Type         |
+|-------------|--------------|
+| ProfileId   | Primary Key  |
+| UserId      | Foreign Key  |
+| ProfileName | VARCHAR(50)  |
+| ...         | ...          |
+
+### Genre Table
+| Column   | Type         |
+|----------|--------------|
+| GenreId  | Primary Key  |
+| Name     | VARCHAR(50)  |
+| ...      | ...          |
+
+### Movie Table
+| Column       | Type         |
+|--------------|--------------|
+| MovieId      | Primary Key  |
+| Title        | VARCHAR(100) |
+| Description  | TEXT         |
+| ReleaseDate  | DATE         |
+| ...          | ...          |
+
+### Series Table
+| Column    | Type         |
+|-----------|--------------|
+| SeriesId  | Primary Key  |
+| MovieId   | Foreign Key  |
+| Season    | INT          |
+| Episode   | INT          |
+| ...       | ...          |
+
+### UserMovieWatchlist Table
+| Column      | Type         |
+|-------------|--------------|
+| WatchlistId | Primary Key  |
+| UserId      | Foreign Key  |
+| MovieId     | Foreign Key  |
+| ...         | ...          |
+
+### MovieGenre Table (Many-to-Many)
+| Column   | Type         |
+|----------|--------------|
+| MovieId  | Foreign Key  |
+| GenreId  | Foreign Key  |
