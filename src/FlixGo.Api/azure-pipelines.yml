@@ -3,7 +3,7 @@ trigger:
 stages:
   - stage: Build
     jobs:
-      -job:
+      - job:
         
         steps:
           - script: dotnet build --configuration Release
