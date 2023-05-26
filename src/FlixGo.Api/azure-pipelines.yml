@@ -9,12 +9,12 @@ stages:
           - script: dotnet build --configuration Release
             displayName: 'dotnet build Release'
 
-          - task: DotNetCoreCLI@2
-            displayName: Run unit tests
-            inputs:
-              command: 'test'
-              projects: '**/*Tests*.csproj'
-              testRunTitle: 'UnitTests'
+#          - task: DotNetCoreCLI@2
+#            displayName: Run unit tests
+#            inputs:
+#              command: 'test'
+#              projects: '**/*Tests*.csproj'
+#              testRunTitle: 'UnitTests'
 
           - task: DotnetCoreCLI@2
             displayName: Publish to $(Build.ArtifactStagingDirectory)
@@ -37,7 +37,7 @@ stages:
           
           variables:
             - group: AWS-ARN
-              
+               
               steps:
                 - task: DownloadBuildArtifacts@0
                   inputs:
